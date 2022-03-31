@@ -1,11 +1,27 @@
+
+nav ul{
+    list-style-type: none;
+}
+
 nav{
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(62, 165, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
- 
 
+nav li{
+    float: right;
+}
+
+body{
+    margin: 0;
+
+}
 
 main{
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
