@@ -6,13 +6,14 @@ nav{
 
 
 main{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
-.mainbox{
+.picbox{
     border: 4px solid black;
+    height: 200px;
 }
 
 
